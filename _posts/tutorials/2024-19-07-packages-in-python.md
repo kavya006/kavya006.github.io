@@ -191,7 +191,7 @@ def print_t5(x="t5"):
 And call this in t1.py, I see this output
 
 <div class="container">
-<img src="https://kavya006.github.io/assets/images/posts/success1-packages-python.png" />
+<img src="https://kavya006.github.io/assets/images/posts/success-packages-python.png" />
 </div>
 
 I haven't passed any arguments to this function call and hence why we see the default printNow, let's try the same in normal mode. I added one more print function to t2.py, let's call it print_t6 and try to call this function in t1.py, we get the following error
