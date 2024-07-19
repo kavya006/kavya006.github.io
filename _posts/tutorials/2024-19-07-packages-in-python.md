@@ -1,6 +1,6 @@
 ---
 title: "Build and Install Python Package with multiple directories referencing one another."
-date: 2019-04-18T15:34:30-04:00
+date: 2024-19-07
 categories:
   - tutorials
 tags:
@@ -174,9 +174,9 @@ While editable mode supports live code changes, make sure to install the package
 
 #### Normal VS Editable Installation
 Now, when I try to run the code, I get the expected output.
-
+<div class="container">
 <img src=https://miro.medium.com/v2/resize:fit:258/format:webp/1*tTYgk44V_mqEIpOcs-VouA.png />
-
+</div>
 Since, I installed in editable mode, If I add another function in t2.py, lets say print_t5 which does the following
 
 ```python 
