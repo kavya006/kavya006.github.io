@@ -13,15 +13,15 @@ One of the official Tensorflow tutorials was for Time Series Forecasting. If you
 
 Fast forward a few months, I came across a similar problem at work. I had to work with 10k+ different time series at once and develop models for such a dataset. I had written a class for Preprocessing from scratch which resulted in almost (500 lines of code for just the preprocessing). This preprocessing class could do all the tasks required for this particular task.
 
-As the person I am, I wanted to further optimize this code and also learn to use tf.data pipeline for preprocessing. I remembered how I learnt about the Window Generator. Now comes the issue, Window Generator was for a single time series. I searched online for resources if there was an existing post of extending the WindowGenerator class for multiple time series but with no luck.
+As the person I am, I wanted to further optimize this code and also learn to use tf.data pipeline for preprocessing. I remembered how I learnt about the Window Generator. Now comes the issue, Window Generator was for a single time series. I searched online for resources if there was an existing post of extending the `WindowGenerator` class for multiple time series but with no luck.
 
-Here, I am sharing the WindowGenerator which works with Multiple Time Series
+Here, I am sharing the `WindowGenerator` which works with Multiple Time Series
 
 --- 
 
 ### WindowsGenerator — Brief Introduction
 
-WindowsGenerator is the preprocessing class from the Tensorflow’s Time Series Tutorial. It implements the following methods:
+`WindowsGenerator` is the preprocessing class from the Tensorflow’s Time Series Tutorial. It implements the following methods:
 
 1. `constructor` — takes a single time series dataframe (`train`, `val` and `test` dfs) and stores the relevant slicing information for inputs and labels.
 2. `split_window` — takes a single array of size total_window_sizeand splits it to inputs and labels.
