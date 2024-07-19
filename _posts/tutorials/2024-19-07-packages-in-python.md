@@ -2,14 +2,12 @@
 title: "Build and Install Python Package with multiple directories referencing one another."
 date: 2019-04-18T15:34:30-04:00
 categories:
-  - tutorial
+  - tutorials
 tags:
-  - python packages
+  - python
   - project
   - setuptools 
 ---
-
-https://medium.com/@kavyamalla/build-and-install-python-package-with-multiple-directories-referencing-one-another-f27cdfe667e2
 
 ### Build and Install Python Package with multiple directories referencing one another.
 
@@ -84,6 +82,7 @@ Basically, in this step, we can use 3 different kinds of file -` pyproject.t
 2. If you have any dynamic configuration which needs to be added use `setup.py`. 
 More on this topic can be found in the official documentation. I highly recommend you read the documentation carefully to avoid wasting time like I did.
 Now, let's see how to fill the pyproject.toml file to
+
 ```toml
 # pyproject.toml - starting code indicating the backend to use
 [build-system]
@@ -91,6 +90,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 ``` 
 This is the part of configuration which tells which backend needs to be used to build our packages.
+
 ```toml
 # pyproject.toml - configuration for the project and other information.
 [metadata]
@@ -111,12 +111,14 @@ You can also add metadata to the pyproject file which I believe to be optional. 
 Final configuration to add to the pyproject file is to point to the location of source files.
 
 ```toml
-# Automatic detection of all the packages in the project folder. Basically, it will add project, project.pkg2, project.pkg1 as valid packages.
+# Automatic detection of all the packages in the project folder. 
+# Basically, it will add project, project.pkg2, project.pkg1 as valid packages.
 [tool.setuptools.packages]
 find = {}  # Scan the project directory with the default parameters
 ```
 If your project directory structure follows the structure I've pointed out in the beginning, then setuptools can automatically infer the different packages, sub-packages in your project. Else you might have to provide the paths manually. This part of configuration can be moved to setup.py as per your convenience.
 Finally, the entire pyproject.toml looks like this -
+
 ```toml 
 # Complete pyproject.toml file 
 [build-system]

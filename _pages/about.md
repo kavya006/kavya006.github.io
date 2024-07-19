@@ -34,9 +34,9 @@ I'm eager to leverage my abilities to solve real-world problems and contribute t
 
 This site works as a gallery of my data projects as well as my own thoughts on data analysis. You will find:  
 * [My Weekly Visualizations](https://kavya006.github.io/mm-portfolio/categories/#data-viz) at the **data viz** category  
-* [Reading Notes](https://kavya006.github.io/mm-portfolio/categories/#reading-notes) at the **reading notes** category  
-* [Blogs](https://kavya006.github.io/mm-portfolio/categories/#blog) on my own thoughts and experience in the data science fields at the **blog** tag  
-
+* [Reading Notes](https://kavya006.github.io/mm-portfolio/categories/#learnings) at the **learnings** category  
+* [Blogs](https://kavya006.github.io/mm-portfolio/categories/#blogs) on my own thoughts and experience in the data science fields at the **blog** tag  
+* [Tutorials](https://kavya006.github.io/mm-portfolio/categories/#tutorials) contains the list of all the **tutorials** related to python, data science. 
 ### Contact Me    
 
 <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/brands/linkedin.svg" width="12" height="12"> [LinkedIn @kavya-mrudula-malla](https://www.linkedin.com/in/kavya-mrudula-malla/)  
