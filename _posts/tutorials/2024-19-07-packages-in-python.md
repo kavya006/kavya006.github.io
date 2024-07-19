@@ -175,7 +175,7 @@ While editable mode supports live code changes, make sure to install the package
 #### Normal VS Editable Installation
 Now, when I try to run the code, I get the expected output.
 <div class="container">
-<img src=https://miro.medium.com/v2/resize:fit:258/format:webp/1*tTYgk44V_mqEIpOcs-VouA.png />
+<img src="https://kavya006.github.io/mm-portfolio/assets/images/posts/success1-packages-python.png" />
 </div>
 Since, I installed in editable mode, If I add another function in t2.py, lets say print_t5 which does the following
 
@@ -190,10 +190,14 @@ def print_t5(x="t5"):
 
 And call this in t1.py, I see this output
 
-<img src=https://miro.medium.com/v2/resize:fit:388/format:webp/1*RWIkS95MZLJ7u6mB5nG1sw.png />
+<div class="container">
+<img src="https://kavya006.github.io/mm-portfolio/assets/images/posts/success1-packages-python.png" />
+</div>
 
 I haven't passed any arguments to this function call and hence why we see the default printNow, let's try the same in normal mode. I added one more print function to t2.py, let's call it print_t6 and try to call this function in t1.py, we get the following error
-<img src=https://miro.medium.com/v2/resize:fit:750/format:webp/1*YxVINVM-qAl5GybVgvqD-w.png /> 
+<div class="container">
+<img src="https://kavya006.github.io/mm-portfolio/assets/images/posts/error1-packages-python.png" />
+</div>
 
 When we install the pacakge in normal mode, we get an error when we update the code message.This error will be resolved, if we install the package using the same command `pip install .`
 
