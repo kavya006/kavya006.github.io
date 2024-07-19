@@ -45,7 +45,7 @@ Example of the data used for the updated Window Generator. The data has 3 series
 ### Updated Window Generator for Multiple Time Series
 The differences between Original WindowGenerator and MultiSeriesWindowGenerator constructor
 
-- addition of batch_size as a parameter.
+- addition of `batch_size` as a parameter.
 - removal of `train_df`, `val_df`, `test_df` as parameters to the init function.
 - added `regressor_columns`, `static_columns` for better management of input features to the model.
 - addition of `GROUPBY` as a parameter to identify different series in the input data.
