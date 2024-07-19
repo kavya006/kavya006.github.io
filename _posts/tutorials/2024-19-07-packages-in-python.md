@@ -1,6 +1,6 @@
 ---
 title: "Build and Install Python Package with multiple directories referencing one another."
-date: 2024-19-07
+date: 2024-07-19
 categories:
   - tutorials
 tags:
